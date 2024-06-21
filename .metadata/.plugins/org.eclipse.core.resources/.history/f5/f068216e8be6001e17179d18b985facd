@@ -1,0 +1,17 @@
+package com.strings;
+
+public class numequalschar {
+
+	public static void main(String[] args) 
+	{
+      String s="a1b2c3d4";
+       for(int i=0;i<s.length();i++) 
+       {	
+    	 char c=s.charAt(i);
+    	 if(Character.isAlphabetic(c))
+    	 System.out.print(c);	 
+       }
+      
+	}
+
+}

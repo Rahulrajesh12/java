@@ -1,0 +1,15 @@
+package com.arrays;
+
+public class foreachlengthproperty 
+{
+
+	public static void main(String[] args) 
+	{
+      int[]a=new int[]{12345678};
+      for(int x=0;x<a.length/2;x++)
+      {
+    	  System.out.print(a[x]);
+      }
+    }
+
+}

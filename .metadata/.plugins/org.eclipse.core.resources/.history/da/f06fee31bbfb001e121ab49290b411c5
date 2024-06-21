@@ -1,0 +1,11 @@
+package com.codingpackage1;
+
+public class Bool 
+{
+	public static void main(String args[])
+	{
+		String s1="geeks for geeks";
+		char[] ch=s1.toCharArray();
+		
+	}
+}

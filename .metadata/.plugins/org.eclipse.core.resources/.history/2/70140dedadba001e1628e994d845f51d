@@ -1,0 +1,42 @@
+package com.oops;
+
+public class Method {
+
+	public static void main(String[] args) 
+	{
+	  A a1;
+	  a1=new A();//refernc variable
+	  a1.countryIndia();//way1
+	  a1.countryAustralia();
+	  a1.countryRussia();
+	}
+}
+class A//
+{
+	  public void countryIndia()  
+	  {
+		 System.out.println("India"); 
+	  }
+       public void countryAustralia() 
+      {
+    		 System.out.println("Australia"); 
+      }
+       public void countryRussia()   
+      {
+   		 System.out.println("Russia"); 
+      }
+}    
+       
+       
+
+
+ 	  
+ 	  
+          
+ 	
+       
+
+
+
+   
+   

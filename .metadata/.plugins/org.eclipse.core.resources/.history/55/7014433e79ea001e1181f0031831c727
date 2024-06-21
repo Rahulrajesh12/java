@@ -1,0 +1,27 @@
+package com.inheritance;
+import java.util.Scanner;
+
+public class INTERandUGapp {
+	
+	public static void main (String[] args)
+	{
+	  College clg =new College();
+	  Scanner s=new Scanner(System.in);
+	  String st=s.next();
+	  if(st.equalsIgnoreCase("Aurora's"))
+	  {
+		 System.out.println("ff"); 
+	  }
+	}
+}
+class College
+{
+	public void colleges()
+	{
+	 System.out.println("select colleges");
+	 
+	}
+}
+  
+  
+ 

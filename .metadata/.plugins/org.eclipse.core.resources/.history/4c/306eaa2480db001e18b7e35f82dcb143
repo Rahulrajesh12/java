@@ -1,0 +1,14 @@
+package com.arrays;
+
+import java.util.Random;
+
+public class ExamRandom {
+
+	public static void main(String[] args) {
+		Random r=new Random();
+		int size=r.nextInt(10);
+		System.out.println(size);
+
+	}
+
+}

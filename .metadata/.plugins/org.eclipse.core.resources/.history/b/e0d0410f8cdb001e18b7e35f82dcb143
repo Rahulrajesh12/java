@@ -1,0 +1,14 @@
+package com.arrays;
+import java.util.Random;
+
+public class copya2b 
+{	
+   public static void main(String[]args) 
+ {
+	 int a[]=new int[10];
+	 int b[]=a.
+	 
+ }
+	}
+
+

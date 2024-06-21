@@ -1,0 +1,22 @@
+package com.arrays;
+
+import java.util.Random;
+
+public class sixdigitotp {
+
+	public static void main(String[] args)
+	{
+     Random r=new Random();
+     int a[]=new int[6];
+     System.out.println("six digit otp");
+     for(int a1=0;a1<=a.length;a1++)
+     {
+    	 a[a1]=r.nextInt(0,9);
+     }
+     for(int a1=0;a1<=a.length-1;a1++)
+     {
+         System.out.println(a[a1]);
+     }
+	}
+
+}
